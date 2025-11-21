@@ -24,8 +24,8 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
+  /* display: flex;
+  place-items: center; */
   min-width: 320px;
   min-height: 100vh;
 }
@@ -65,4 +65,25 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+.nav-link{
+  margin-left: 40px;
+}
+footer .col a{
+  color: #666;
+  line-height: 2;
+  margin-bottom: 10px;
+}
+
+.graveyard ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;   
+  gap: 20px;                 
+}
+
+.graveyard ul li {
+  display: inline-block;
+  text-align: center;
 }
