@@ -5,7 +5,7 @@ import './index.css'
 import HomePage from './landing_page/home/HomePage';
 import About from './landing_page/about/About';
 import PricingPage from './landing_page/pricing/PricingPage';
-import Universe from './landing_page/products/Universe';
+import ProductsPage from './landing_page/products/ProductsPage';
 import Signup from './landing_page/signup/Signup';
 import SupportPage from './landing_page/support/SupportPage';
 import Navbar from './landing_page/Navbar';
@@ -23,7 +23,7 @@ root.render(
   <Route path="about" element={<About/>}></Route>
   <Route path="pricing" element={<PricingPage/>}></Route>
   <Route path="support" element={<SupportPage/>}></Route>
-  <Route path="products" element={<Universe/>}></Route>
+  <Route path="products" element={<ProductsPage/>}></Route>
   <Route path="*" element={<NotFound/>}></Route>
   </Routes>
   <Footer/>
